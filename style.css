@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Farsan&family=Roboto:wght@300&family=Secular+One&display=swap');
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(119, 117, 117), rgb(0, 0, 0));
+}
+
+#title{
+    font-family: 'Roboto', 'Arial', 'Noto Sans';
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: 10%;
+}
+
+.links{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 2%;
+    border: 5px solid;
+    margin: 5% 35% 0 35%;
+    border-left: none;
+    border-top: none;
+    background-color: grey;
+    font-family: 'Bebas Neue', 'Arial', 'Solaris One';
+    font-size: 20px;
+}
+
+#line{
+    margin-top: 10%;
+}
+
+#init-content{
+    margin: 0% 5% 0% 5%;
+    text-align: justify;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Secular One', 'Arial', 'Noto Sans';
+    margin-bottom: -3%;
+    text-decoration-line: underline;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+ul{
+    display: flex;
+    margin-top: 65%;
+    margin-bottom: 20%;
+    margin-left: -10%;
+    margin-right: 10%;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.anuncios{
+    margin: 0% 5% 0% 5%;
+    text-align: justify;
+}
+
+ul li a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    filter: drop-shadow(0px 0px 10px white);
+}
