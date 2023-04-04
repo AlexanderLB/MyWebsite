@@ -67,16 +67,16 @@ p{
 .contenedor_links{
     border:1px solid black;
     background-color: black;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
     margin: 70px -10px 0px -10px;
 }
 
 #social_media_links{
     gap: 10px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-content: center;
-    margin-left: 40%;
     padding: 10px 0px 10px 0px;
 }
 
@@ -84,5 +84,10 @@ p{
     text-decoration: none;
     color: white;
     font-family: 'Bebas Neue', 'Arial';
+}
+
+.images{
+    width: 30px;
+    height: 30px;
 }
 
